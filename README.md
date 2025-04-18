@@ -8,7 +8,7 @@ zëvendësimit (substitution cipher) që zhvendos shkronjat me 13 pozicione në 
 dekriptuar mesazhe, duke ofruar siguri të lartë kur çelësi është i sigurt.
 - **Enkriptimi me ROT13**: Një metodë e thjeshtë zëvendësimi që mund të përdoret për të 
 fshehur tekstin në mënyrë bazike,nuk është aspak e sigurt dhe mund te deshifrohet lehtë .
--**Ndërfaqe e thjeshtë**: Projekti ofron një ndërfaqe të qartë për të testuar të dyja 
+- **Ndërfaqe e thjeshtë**: Projekti ofron një ndërfaqe të qartë për të testuar të dyja 
 metodat e enkriptimit.
 ## Kërkesat
 - **Java Development Kit (JDK)** i instaluar në kompjuterin tuaj 
