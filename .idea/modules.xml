@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ROT13/ROT13.iml" filepath="$PROJECT_DIR$/ROT13/ROT13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VernamCipher/VernamCipher.iml" filepath="$PROJECT_DIR$/VernamCipher/VernamCipher.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/VernamCipher-and-ROT13.iml" filepath="$PROJECT_DIR$/.idea/VernamCipher-and-ROT13.iml" />
     </modules>
   </component>
