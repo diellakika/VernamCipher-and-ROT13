@@ -16,6 +16,15 @@ metodat e enkriptimit.
 - **IntelliJ IDEA** (ose ndonjë IDE tjetër për Java) për të ekzekutuar 
 dhe modifikuar kodin.
 ## Përdorimi
+1. Ekzekutoni programin për Vernam Cipher:
+   ```bash
+   java VernamCipher
+2. Ekzekutoni programin për ROT13:
+   ```bash
+   java ROT13
 ## Skedarët
 ## Grupi punues:
 Diella Kika
+Erisa Ramadani
+Endri Sojeva
+Enis Shabani
