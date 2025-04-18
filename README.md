@@ -23,6 +23,10 @@ dhe modifikuar kodin.
    ```bash
    java ROT13
 ## Skedarët
+- **VernamCipher/VernamCipher.java**: Implementimi i algoritmit Vernam Cipher për
+- enkriptim dhe dekriptim të mesazheve duke përdorur një çelës të rastësishëm.
+- **rot13/ROT13.java**: Implementimi i algoritmit ROT13 për enkriptim 
+dhe dekriptim të mesazheve përmes zhvendosjes së shkronjave me 13 pozicione.
 ## Grupi punues:
 - Diella Kika
 - Erisa Ramadani
