@@ -1,0 +1,1 @@
+VernamCipher dhe ROT13
