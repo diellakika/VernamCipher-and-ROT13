@@ -8,14 +8,14 @@ public class VernamCipher {
         }
         return cipherText.toString();
     }
-    public static String decrypt(String cipherText,string key){
-        StringBuilder decryptedText=new StringBuilder();
-        for(int i=0;i<cipherText.length();i++){
-            char decryptedChar=(char)(cipherText.charAt(i)^key.charAt(i%key.length()));
-            decryptedText.append(decryptedChar);
-        }
-        return decryptedText.toString();
+ public static String decrypt(String cipherText,String key){
+    StringBuilder decryptedText=new StringBuilder();
+    for (int i=0;i<cipherText.length();i++){
+        char decryptedChar=(char)(cipherText.charAt(i)^key.charAt(i%key.length()));
+        decryptedText.append(decryptedChar);
     }
+    return decryptedText.toString();
+}
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter plaintext:");
@@ -24,6 +24,10 @@ public class VernamCipher {
         String key=scanner.nextLine();
         String encryptedText=encrypt(plainText,key);
         System.out.println("Encrypted text:"+encryptedText);
+        String decryptedText=decrypt(encryptedText,key);
+        System.out.println("Decrypted text:"+decryptedText);
+
+
 
 
     }
