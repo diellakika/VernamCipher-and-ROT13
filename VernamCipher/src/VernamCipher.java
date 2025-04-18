@@ -8,6 +8,8 @@ public class VernamCipher {
         }
         return cipherText.toString();
     }
+    public static String decrypt(String cipherText,string key){
+        StringBuilder decryptedText=new StringBuilder();
 
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
