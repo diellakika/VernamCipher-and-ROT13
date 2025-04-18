@@ -24,7 +24,7 @@ dhe modifikuar kodin.
    java ROT13
 ## Skedarët
 ## Grupi punues:
-Diella Kika
-Erisa Ramadani
-Endri Sojeva
-Enis Shabani
+- Diella Kika
+- Erisa Ramadani
+- Endri Sojeva
+- Enis Shabani
