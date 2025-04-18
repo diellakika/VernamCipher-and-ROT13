@@ -1,6 +1,10 @@
 import java.util.Scanner;
-public class rot13 {
-    public static String rot13(String input) {
+public class ROT13 {
+
+    public static String enkriptoMeRot13(String input) {
+        if (input == null || input.isEmpty()) {
+            return input;
+        }
         StringBuilder result = new StringBuilder();
 
         for (char c : input.toCharArray()) {
@@ -21,8 +25,8 @@ public class rot13 {
         System.out.print("Shtyp tekstin për ta enkriptuar me ROT13: ");
         String input = scanner.nextLine();
 
-        String encrypted = rot13(input);
-        String decrypted = rot13(encrypted); // ROT13 është reversible
+        String encrypted = enkriptoMeRot13(input);
+        String decrypted = enkriptoMeRot13(encrypted); // ROT13 është reversible
 
         System.out.println("\nEncrypted: " + encrypted);
         System.out.println("Decrypted: " + decrypted);
