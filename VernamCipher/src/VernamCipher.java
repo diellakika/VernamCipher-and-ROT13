@@ -10,7 +10,12 @@ public class VernamCipher {
     }
     public static String decrypt(String cipherText,string key){
         StringBuilder decryptedText=new StringBuilder();
-
+        for(int i=0;i<cipherText.length();i++){
+            char decryptedChar=(char)(cipherText.charAt(i)^key.charAt(i%key.length()));
+            decryptedText.append(decryptedChar);
+        }
+        return decryptedText.toString();
+    }
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter plaintext:");
