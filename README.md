@@ -4,15 +4,34 @@ Vernam Cipher është një metodë e enkriptimit simetrik që përdor një çel�
 gjatësi të njëjtë me mesazhin, ndërsa ROT13 është një formë e thjeshtë e enkriptimit të
 zëvendësimit (substitution cipher) që zhvendos shkronjat me 13 pozicione në alfabet.
 ## Veçoritë
-- **Enkriptimi me Vernam Cipher**: Përdor një çelës të rastësishëm për të enkriptuar dhe 
-dekriptuar mesazhe, duke ofruar siguri të lartë kur çelësi është i sigurt.
-- **Enkriptimi me ROT13**: Një metodë e thjeshtë zëvendësimi që mund të përdoret për të 
-fshehur tekstin në mënyrë bazike,nuk është aspak e sigurt dhe mund te deshifrohet lehtë .
+- **Enkriptimi me Vernam Cipher**: Vernam Cipher është një algoritëm enkriptimi që përdor 
+- operacionin XOR mbi secilin karakter të mesazhit me një çelës (key). Është i sigurt
+- kur çelësi është po aq i gjatë sa mesazhi dhe përdoret vetëm një herë.
+- **Enkriptimi me ROT13**: ROT13 është një algoritëm i thjeshtë që zhvendos çdo shkronjë 
+- për 13 pozita në alfabet. Ajo është reversible, që do të thotë se të njëjtin 
+- funksion mund ta përdorësh për enkriptim dhe dekriptim.
 - **Ndërfaqe e thjeshtë**: Projekti ofron një ndërfaqe të qartë për të testuar të dyja 
 metodat e enkriptimit.
+## Shembuj te perdorimit
+- **Vernam Cipher**
+- Input:
+- Plaintext: Hello
+- Key: 12345
+
+- Output:
+- Encrypted:yW_XZ
+- Decrypted: Hello
+- **ROT13**
+- Input:
+  Text: Hello World!
+
+- Output:
+- Encrypted: Uryyb Jbeyq!
+- Decrypted: Hello World!
+
 ## Kërkesat
 - **Java Development Kit (JDK)** i instaluar në kompjuterin tuaj 
-(rekomandohet versioni 8 ose më i lartë).
+(rekomandohet versioni 23 ose më i lartë).
 - **IntelliJ IDEA** (ose ndonjë IDE tjetër për Java) për të ekzekutuar 
 dhe modifikuar kodin.
 ## Përdorimi
