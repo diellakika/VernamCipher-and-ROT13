@@ -50,6 +50,9 @@ dhe dekriptim të mesazheve përmes zhvendosjes së shkronjave me 13 pozicione.
 
 ## Grupi punues:
 Diella Kika
+
 Erisa Ramadani
+
 Endri Sojeva
+
 Enis Shabani
