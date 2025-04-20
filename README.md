@@ -24,7 +24,8 @@ dhe modifikuar kodin.
 2. Ekzekutoni programin për ROT13:
    ```bash
    java ROT13
-   ## Shembuj të përdorimit
+   
+ ## Shembuj të përdorimit
 **Vernam Cipher**
 - Plaintext: Hello
 - Key: 12345
