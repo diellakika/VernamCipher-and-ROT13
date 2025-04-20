@@ -12,18 +12,6 @@ zëvendësimit (substitution cipher) që zhvendos shkronjat me 13 pozicione në 
 - funksion mund ta përdorësh për enkriptim dhe dekriptim.
 - **Ndërfaqe e thjeshtë**: Projekti ofron një ndërfaqe të qartë për të testuar të dyja 
 metodat e enkriptimit.
-## Shembuj të përdorimit
-**Vernam Cipher**
-- Plaintext: Hello
-- Key: 12345
-- Encrypted:yW_XZ
-- Decrypted: Hello
-- 
-**ROT13**
-- Text: Hello World!
-- Encrypted: Uryyb Jbeyq!
-- Decrypted: Hello World!
-
 ## Kërkesat
 - **Java Development Kit (JDK)** i instaluar në kompjuterin tuaj 
 (rekomandohet versioni 23 ose më i lartë).
@@ -36,17 +24,24 @@ dhe modifikuar kodin.
 2. Ekzekutoni programin për ROT13:
    ```bash
    java ROT13
+   ## Shembuj të përdorimit
+**Vernam Cipher**
+- Plaintext: Hello
+- Key: 12345
+- Encrypted:yW_XZ
+- Decrypted: Hello
+-
+**ROT13**
+- Text: Hello World!
+- Encrypted: Uryyb Jbeyq!
+- Decrypted: Hello World!
+
 ## Skedarët
 - **VernamCipher/VernamCipher.java**: Implementimi i algoritmit Vernam Cipher për
 enkriptim dhe dekriptim të mesazheve duke përdorur një çelës të rastësishëm.
 - **rot13/ROT13.java**: Implementimi i algoritmit ROT13 për enkriptim 
 dhe dekriptim të mesazheve përmes zhvendosjes së shkronjave me 13 pozicione.
-## Shembuj te Algoritmit ROT13
-Fakulteti I Inxhinierise Elektrike dhe Kompjuterike - Snxhygrgv V Vakuvavrevfr Ryrxgevxr qur Xbzcwhgrevxr
 
-Siguria E Te Dhenave - Fvthevn R Gr Quranir
-
-Ky eshte ROT13 algoritmi - Xl rfugr EBG13 nytbevgzv
 ## Grupi punues:
 - Diella Kika
 - Erisa Ramadani
