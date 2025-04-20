@@ -5,11 +5,11 @@ gjatësi të njëjtë me mesazhin, ndërsa ROT13 është një formë e thjeshtë
 zëvendësimit (substitution cipher) që zhvendos shkronjat me 13 pozicione në alfabet.
 ## Veçoritë
 - **Enkriptimi me Vernam Cipher**: Vernam Cipher është një algoritëm enkriptimi që përdor 
-- operacionin XOR mbi secilin karakter të mesazhit me një çelës (key). Është i sigurt
-- kur çelësi është po aq i gjatë sa mesazhi dhe përdoret vetëm një herë.
+operacionin XOR mbi secilin karakter të mesazhit me një çelës (key). Është i sigurt
+kur çelësi është po aq i gjatë sa mesazhi dhe përdoret vetëm një herë.
 - **Enkriptimi me ROT13**: ROT13 është një algoritëm i thjeshtë që zhvendos çdo shkronjë 
-- për 13 pozita në alfabet. Ajo është reversible, që do të thotë se të njëjtin 
-- funksion mund ta përdorësh për enkriptim dhe dekriptim.
+për 13 pozita në alfabet. Ajo është reversible, që do të thotë se të njëjtin 
+funksion mund ta përdorësh për enkriptim dhe dekriptim.
 - **Ndërfaqe e thjeshtë**: Projekti ofron një ndërfaqe të qartë për të testuar të dyja 
 metodat e enkriptimit.
 ## Kërkesat
