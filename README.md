@@ -14,18 +14,12 @@ zëvendësimit (substitution cipher) që zhvendos shkronjat me 13 pozicione në 
 metodat e enkriptimit.
 ## Shembuj te perdorimit
 - **Vernam Cipher**
-- Input:
-Plaintext: Hello
-Key: 12345
-
-- Output:
+- Plaintext: Hello
+- Key: 12345
 - Encrypted:yW_XZ
 - Decrypted: Hello
 - **ROT13**
-- Input:
-  Text: Hello World!
-
-- Output:
+  - Text: Hello World!
 - Encrypted: Uryyb Jbeyq!
 - Decrypted: Hello World!
 
