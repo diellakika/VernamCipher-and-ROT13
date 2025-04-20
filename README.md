@@ -15,8 +15,8 @@ metodat e enkriptimit.
 ## Shembuj te perdorimit
 - **Vernam Cipher**
 - Input:
-- Plaintext: Hello
-- Key: 12345
+Plaintext: Hello
+Key: 12345
 
 - Output:
 - Encrypted:yW_XZ
