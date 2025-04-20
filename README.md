@@ -17,11 +17,15 @@ metodat e enkriptimit.
 (rekomandohet versioni 23 ose më i lartë).
 - **IntelliJ IDEA** (ose ndonjë IDE tjetër për Java) për të ekzekutuar 
 dhe modifikuar kodin.
-## Përdorimi
-1. Ekzekutoni programin për Vernam Cipher:
+## Përdorim
+- Para se të ekzekutoni programet, duhet të kompiloni klasat Java:
+  javac VernamCipher/VernamCipher.java
+  javac rot13/ROT13.java
+1. Ekzekutoni programin për Vernam Cipher:as kompilimit, mund të ekzekutoni 
+programin për Vernam Cipher me komandën:
    ```bash
    java VernamCipher
-2. Ekzekutoni programin për ROT13:
+2. Për të ekzekutuar programin ROT13, përdorni komandën:
    ```bash
    java ROT13
    
