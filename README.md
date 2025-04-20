@@ -18,7 +18,7 @@ metodat e enkriptimit.
 - **IntelliJ IDEA** (ose ndonjë IDE tjetër për Java) për të ekzekutuar 
 dhe modifikuar kodin.
 ## Përdorimi
-- Para se të ekzekutoni programet, duhet të kompiloni klasat Java:
+Para se të ekzekutoni programet, duhet të kompiloni klasat Java:
   javac VernamCipher/VernamCipher.java
 
   javac rot13/ROT13.java
@@ -36,7 +36,7 @@ programin për Vernam Cipher me komandën:
 - Key: 12345
 - Encrypted:yW_XZ
 - Decrypted: Hello
--
+
 **ROT13**
 - Text: Hello World!
 - Encrypted: Uryyb Jbeyq!
@@ -49,7 +49,7 @@ enkriptim dhe dekriptim të mesazheve duke përdorur një çelës të rastësish
 dhe dekriptim të mesazheve përmes zhvendosjes së shkronjave me 13 pozicione.
 
 ## Grupi punues:
-- Diella Kika
-- Erisa Ramadani
-- Endri Sojeva
-- Enis Shabani
+Diella Kika
+Erisa Ramadani
+Endri Sojeva
+Enis Shabani
