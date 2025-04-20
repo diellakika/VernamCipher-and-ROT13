@@ -29,7 +29,9 @@ enkriptim dhe dekriptim të mesazheve duke përdorur një çelës të rastësish
 dhe dekriptim të mesazheve përmes zhvendosjes së shkronjave me 13 pozicione.
 ## Shembuj te Algoritmit ROT13
 Fakulteti I Inxhinierise Elektrike dhe Kompjuterike - Snxhygrgv V Vakuvavrevfr Ryrxgevxr qur Xbzcwhgrevxr
+
 Siguria E Te Dhenave - Fvthevn R Gr Quranir
+
 Ky eshte ROT13 algoritmi - Xl rfugr EBG13 nytbevgzv
 ## Grupi punues:
 - Diella Kika
