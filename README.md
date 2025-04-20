@@ -12,12 +12,13 @@ zëvendësimit (substitution cipher) që zhvendos shkronjat me 13 pozicione në 
 - funksion mund ta përdorësh për enkriptim dhe dekriptim.
 - **Ndërfaqe e thjeshtë**: Projekti ofron një ndërfaqe të qartë për të testuar të dyja 
 metodat e enkriptimit.
-## Shembuj te perdorimit
+## Shembuj të përdorimit
 **Vernam Cipher**
 - Plaintext: Hello
 - Key: 12345
 - Encrypted:yW_XZ
 - Decrypted: Hello
+- 
 **ROT13**
 - Text: Hello World!
 - Encrypted: Uryyb Jbeyq!
