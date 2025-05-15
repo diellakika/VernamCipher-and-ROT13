@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class VernamCipher {
+
     public static String encrypt(String plainText,String key){
         StringBuilder cipherText=new StringBuilder();
         for (int i=0;i<plainText.length();i++){
@@ -7,7 +8,10 @@ public class VernamCipher {
             cipherText.append(encryptedChar);
         }
         return cipherText.toString();
+        
     }
+
+
  public static String decrypt(String cipherText,String key){
     StringBuilder decryptedText=new StringBuilder();
     for (int i=0;i<cipherText.length();i++){
@@ -16,6 +20,7 @@ public class VernamCipher {
     }
     return decryptedText.toString();
 }
+
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter plaintext:");
